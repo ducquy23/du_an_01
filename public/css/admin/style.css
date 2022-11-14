@@ -1,0 +1,268 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+}
+
+aside ul li img {
+    width: 20px;
+    height: 20px;
+}
+
+.menu {
+    margin-top: 100px;
+    margin-bottom: 300px;
+
+}
+
+aside {
+    background-color: #4A4A4A;
+    float: left;
+position: fixed;
+    height: 100vh;
+}
+
+aside a {
+    text-decoration: none;
+}
+
+aside a:hover {
+    font-weight: bold;
+}
+
+aside ul li {
+    font-size: 2.8vh;
+    list-style: none;
+    width: 240px;
+    height: 38px;
+    padding: 10px 0px 35px 10px;
+    margin: 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    
+}
+aside ul li span{
+    padding-left: 20px;
+}
+.header{
+    width: 100%;
+    margin-top: 20px;
+}
+header {
+
+    display: flex;
+
+    align-items: center;
+    justify-content: flex-end;
+}
+article{
+    margin-left: 400px;
+    width: 1000px;
+}
+header img {
+    width: 80px;
+    height: 80px;
+}
+
+.welcome {
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    flex-direction: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+    height: 90px;
+    background: url('/Dự_Án_01/public/images/img_admin/backgr.png');
+}
+
+/* quản lí sản phẩm */
+table tr th{
+    padding: 15px;
+    background-color: black;
+    color: whitesmoke;
+}
+.table__sanpham {
+    height: 100px;
+    padding: 0px;
+    margin: 20px 20px;
+
+}
+
+.table__sanpham table td:nth-child(1) {
+    width: 2%;
+    
+}
+
+.table__sanpham table td:nth-child(2) {
+    width: 2%;
+    
+}
+
+.table__sanpham table td:nth-child(3) {
+    width: 10%;
+}
+
+.table__sanpham table td:nth-child(4) img {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+
+.table__sanpham table td:nth-child(4) {
+    width: 8%;
+    
+}
+
+.table__sanpham table td:nth-child(6) {
+    width: 30%;
+
+}
+
+.table__sanpham table td:nth-child(7) {
+    width: 2%;
+
+}
+.table__sanpham table td:nth-child(8) {
+    width: 20%;
+
+}
+
+.table__sanpham input[type="button"],
+.table__user input[type="button"],
+.table__danhmuc input[type="button"]{
+    margin-left: 20px;
+    font-size: 20px;
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+.table__sanpham input[type="button"]:hover,
+.table__user input[type="button"]:hover,
+.table__danhmuc input[type="button"]:hover {
+    margin-left: 20px;
+    font-size: 20px;
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+
+.chiadoi {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.chiadoi input[type="button"],
+.add__sanpham input[type='submit'] {
+    font-size: 15px;
+    margin-top: 10px;
+    height: 30px;
+    width: 170px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+/* thêm mới sản phẩm */
+
+.add__sanpham {
+    width: 770px;
+    margin: auto;
+}
+.add__sanpham p{
+    margin: 10px;
+}
+.add__sanpham input[type='text'],select,
+.add__sanpham input[type='password'],
+.add__sanpham input[type='email'],
+.add__sanpham input[type='textarea'] {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px;
+}
+/* quản lí user */
+.table__user{
+    width: 1000px;
+    margin: auto;
+}
+.table__user table td:nth-child(1) {
+    width: 2%;
+    ;
+}
+
+.table__user table td:nth-child(2) {
+    width: 6%;
+    ;
+}
+
+.table__user table td:nth-child(3) {
+    width: 6%;
+}
+
+.table__user table td:nth-child(3) img {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+
+.table__user table td:nth-child(4) {
+    width: 8%;
+}
+
+.table__user table td:nth-child(5) {
+    width: 5%;
+
+}
+
+.table__user table td:nth-child(6) {
+    width: 4%;
+
+}
+.table__user table td:nth-child(7) {
+    width: 10%;
+
+}
+/* danh mục */
+.table__danhmuc{
+    width: 700px;
+    margin: auto;
+}
+.table__danhmuc table td:nth-child(1) {
+    width: 1%;
+
+}
+
+.table__danhmuc table td:nth-child(2) {
+    width: 10%;
+
+}
+.table__danhmuc table td:nth-child(3),
+.table__user table td:nth-child(6) {
+    width: 4%;
+    height: 50px;
+
+}
+/* thong ke*/
+.table__thongke{
+    width: 700px;
+    margin: auto;
+}
+
+
