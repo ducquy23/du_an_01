@@ -32,4 +32,3 @@ switch ($ctr) {
     default:
         show_page_404();
 }
-// 1 2 3  
