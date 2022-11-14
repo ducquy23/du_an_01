@@ -32,4 +32,4 @@ switch ($ctr) {
     default:
         show_page_404();
 }
-// sửa thêm vào
+// sửa thêm vào index
