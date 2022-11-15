@@ -52,13 +52,13 @@
         align-items: center;
         padding: 20px 30px;
         box-shadow: 0 30px 50px #ccc;
+    
     }
 
     .header__logo>a>img {
         width: 60px;
         height: 80px;
     }
-
     .header__listCategory>li {
         display: inline-block;
         margin: 0 20px;
@@ -127,7 +127,6 @@
     .mySlides {
         display: none;
     }
-
     /* Fading animation */
     .fade-img {
         animation-name: fade;
@@ -484,4 +483,81 @@
     }
     select {
         padding: 4px;
+    }
+    .card {
+        width: 350px;
+        height: 100%;
+        z-index: 1999999;
+        padding: 20px;
+        box-shadow: 0 30px 50px #ececec;
+        transform: translateX(100%);
+        transition: transform linear 0.2s;
+    }
+    .cart {
+        color: #333;
+        font-size: 19px;
+    }
+    .card__name {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #ccc;
+    }
+    .bx-message-square-x{
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .card__title {
+        text-align: center;
+    }
+    .bx-card-1{
+        font-size: 70px;
+    }
+    .card__money {
+        display: flex;
+        justify-content: space-between;
+        margin: 6px 0;
+    }
+    .card__total {
+        font-weight: bold;
+        font-size: 19px;
+    }
+    .card__price {
+        color: red;
+        font-weight: bold;
+    }
+    .card__btn {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .card__view button {
+        background: #000;
+        outline: none;
+        border: none;
+        text-align: center;
+        color: #fff;
+        margin-bottom: 10px;
+        padding: 10px 90px;
+        border-radius: 7px;
+    }
+    .card__view button:hover {
+        opacity: 0.8;
+    }
+    .card__pay button {
+        background: #000;
+        outline: none;
+        border: none;
+        text-align: center;
+        color: #fff;
+        padding: 10px 100px;
+        border-radius: 7px;
+    }
+    .card__pay button:hover {
+        opacity: 0.8;
+    }
+    .bx-cart {
+        cursor: pointer;
+    }
+    .nav-input:checked ~ .card {
+        transform: translateX(0);
     }
