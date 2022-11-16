@@ -48,7 +48,7 @@
 <div class="main__listProduct" style="margin-top: 20px;">
     <?php for ($i = 0; $i < 12; $i++) : ?>
         <div class="main__product">
-            <a href=""><img src="/public/images/img_client/shoes_soccer_07.png" alt="" class="img_product"></a>
+            <a href="?ctr=detail_product"><img src="/public/images/img_client/shoes_soccer_07.png" alt="" class="img_product"></a>
             <div class="title_product">BÓNG ĐÁ FIFA QUALITY PRO SEA GAMES 31 UHV 2.07</div>
             <div href="" class="price_product">2,250,000<sup><u>đ</u></sup></div>
             <div class="main__btn">
