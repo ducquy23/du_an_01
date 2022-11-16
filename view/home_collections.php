@@ -14,23 +14,23 @@
 <div class="header__categoryCollection">
     <ul class="header__listCategoryCollection">
         <li>
-            <a href="">NAM</a>
+            <a href="">Danh mục</a>
             <a href=""><i class='bx bx-chevron-down'></i></a>
         </li>
         <li>
-            <a href="">NỮ</a>
+            <a href="">Thương hiệu</a>
             <a href=""><i class='bx bx-chevron-down'></i></a>
         </li>
         <li>
-            <a href="">TRẺ EM</a>
+            <a href="">Giá sản phẩm</a>
             <a href=""><i class='bx bx-chevron-down'></i></a>
         </li>
         <li>
-            <a href="">THỂ THAO</a>
+            <a href="">Màu sắc</a>
             <a href=""><i class='bx bx-chevron-down'></i></a>
         </li>
         <li>
-            <a href="">CÁC NHÃN HIỆU</a>
+            <a href="">Kích thước</a>
             <a href=""><i class='bx bx-chevron-down'></i></a>
         </li>
     </ul>

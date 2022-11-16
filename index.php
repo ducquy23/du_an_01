@@ -29,6 +29,9 @@ switch ($ctr) {
     case 'add_product':
         show_add_product();
         break;
+    case 'detail_product':
+        show_page_detail();
+        break;
     default:
         show_page_404();
 }

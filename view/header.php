@@ -19,7 +19,6 @@
     <div class="wapper">
         <!-- header -->
         <div class="header">
-            
                 <div class="header__nav">
                     <ul class="header__category">
                         <li><a href="">Tin tức</a></li>
