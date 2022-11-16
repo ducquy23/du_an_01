@@ -2,7 +2,7 @@
 /*
     function connection database
 */
-function connection($query,$data)
+function connection($query, $data)
 {
     try {
         $conn = new PDO("mysql:host=localhost;dbname=du_an_01;charset=utf8", "root", "");
@@ -18,7 +18,7 @@ function connection($query,$data)
 */
 function getAll($query)
 {
-    $result = connection($query,[])->fetchAll(PDO::FETCH_ASSOC);
+    $result = connection($query, [])->fetchAll(PDO::FETCH_ASSOC);
     return $result;
 }
 /*
@@ -26,9 +26,6 @@ function getAll($query)
 */
 function getOne($query)
 {
-    $result = connection($query,[])->fetch(PDO::FETCH_ASSOC);
+    $result = connection($query, [])->fetch(PDO::FETCH_ASSOC);
     return $result;
 }
-
-
-

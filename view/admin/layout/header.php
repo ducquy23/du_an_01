@@ -30,17 +30,17 @@
 
                         </li>
                         <li>
-                            <a href=""><img src="/public/images/img_admin/qluser.png" alt="">
+                            <a href="?ctr=ql_user"><img src="/public/images/img_admin/qluser.png" alt="">
                                 <span> Quản lý user </span> </a>
 
                         </li>
                         <li>
-                            <a href=""><img src="/public/images/img_admin/qldm.png" alt="">
+                            <a href="?ctr=ql_cate"><img src="/public/images/img_admin/qldm.png" alt="">
                                 <span> Quản lý danh mục </span> </a>
 
                         </li>
                         <li>
-                            <a href=""><img src="/public/images/img_admin/qlsp.png" alt="">
+                            <a href="?ctr=ql_comment"><img src="/public/images/img_admin/qlsp.png" alt="">
                                 <span> Quản lý bình luận </span> </a>
 
                         </li>

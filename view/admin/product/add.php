@@ -4,25 +4,23 @@
 </div>
 <form action="" method="POST" enctype="multipart/form-data">
     <div class="add__sanpham">
-        <p>Tên Product</p>
-        <input type="text">
-        <p>Giá Product</p>
-        <input type="text">
-        <p>Tiêu đề Product</p>
-        <input type="text">
-        <p>Thương hiệu Product</p>
-        <input type="text">
-        <p>Thương hiệu Product</p>
+        <p>Tên sản phẩm</p>
+        <input type="text" placeholder="Nhập tên sản phẩm">
+        <p>Giá sản phẩm</p>
+        <input type="text" placeholder="Nhập giá sản phẩm">
+        <p>Thương hiệu sản phẩm</p>
+        <input type="text"placeholder="Nhập thương hiệu sản phẩm">
+        <p>Danh mục sản phẩm</p>
         <select>
             <option value="">Giày đá bóng</option>
             <option value="">Bóng đá</option>
             <option value="">Áo nam</option>
             <option value="">Áo nữ</option>
         </select>
-        <p>Ảnh sản Product</p>
+        <p>Ảnh sản sản phẩm</p>
         <input type="file">
-        <p>Mô tả Product</p>
-        <input type="textarea" name="" id="">
+        <p>Mô tả sản phẩm</p>
+        <input type="textarea" name="" id="" placeholder="Nhập mô tả sản phẩm" >
         <br>
         <input type="submit" value="Thêm">
     </div>
