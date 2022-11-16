@@ -36,6 +36,7 @@ switch ($ctr) {
     case 'add_product':
         show_add_product();
         break;
+<<<<<<< HEAD
     case 'ql_user':
         show_page_user();
         break;
@@ -50,6 +51,10 @@ switch ($ctr) {
         break;
     case 'ql_comment':
         show_page_cmt();
+=======
+    case 'detail_product':
+        show_page_detail();
+>>>>>>> df2ef98e038de887cdba1199aaa339f538d81e32
         break;
     default:
         show_page_404();

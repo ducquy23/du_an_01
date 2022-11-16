@@ -34,7 +34,7 @@
     <div class="main__listProduct">
         <?php for ($i = 0; $i < 8; $i++) : ?>
             <div class="main__product">
-                <a href=""><img src="/public/images/img_client/football_01.png" alt="" class="img_product"></a>
+                <a href="?ctr=detail_product"><img src="/public/images/img_client/football_01.png" alt="" class="img_product"></a>
                 <div class="title_product">BÓNG ĐÁ FIFA QUALITY PRO SEA GAMES 31 UHV 2.07</div>
                 <div href="" class="price_product">2,250,000<sup><u>đ</u></sup></div>
                 <div class="main__btn">
@@ -58,7 +58,7 @@
     <div class="main__listProduct">
         <?php for ($i = 0; $i < 8; $i++) : ?>
             <div class="main__product">
-                <a href=""><img src="/public/images/img_client/shoes_soccer_01.png" alt="" class="img_product"></a>
+                <a href="?ctr=detail_product"><img src="/public/images/img_client/shoes_soccer_01.png" alt="" class="img_product"></a>
                 <div class="title_product">GIÀY BÓNG ĐÁ JOGARBOLA X-FACTOR 190424B</div>
                 <div class="price_product">685,000<sup><u>đ</u></sup></div>
                 <div class="main__btn">
