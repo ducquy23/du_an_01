@@ -5,4 +5,7 @@
     function show_add_cate() {
         render('admin/category/add');
     }
+    function show_update_cate() {
+        render('admin/category/update');
+    }
 ?>

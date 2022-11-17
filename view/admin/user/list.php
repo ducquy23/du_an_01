@@ -27,7 +27,6 @@
                 <td>manhzxc3@gmail.com</td>
                 <td>admin</td>
                 <td>
-                    <input type="button" value="Update">
                     <input type="button" value="Delete">
                 </td>
             </tr>

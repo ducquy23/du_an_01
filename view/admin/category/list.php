@@ -19,7 +19,7 @@
                             <td>1</td>
                             <td>Giày bóng đá</td>
                             <td>
-                                <input type="button" value="Update">
+                              <a href="?ctr=update_cate"><input type="button" value="Update"></a>  
                                 <input type="button" value="Delete">
                             </td>
                         </tr>

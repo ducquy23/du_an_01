@@ -2,13 +2,12 @@
 <form action="" method="POST" enctype="multipart/form-data">
 
     <div class="chiadoi">
-            <h2>Thêm mới danh mục</h2>
+            <h2>Chỉnh sửa danh mục</h2>
     </div>
     <div class="add__sanpham">
-        <p>Tên danh mục</p>
-        <input type="text" placeholder="Nhập tên danh mục">
-
-        <input type="submit" value="Thêm">
+        <p>Tên danh mục mới</p>
+        <input type="text" placeholder="Nhập tên danh mục mới">
+        <input type="submit" value="Update">
     </div>
 </form>
 </article>

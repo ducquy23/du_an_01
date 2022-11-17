@@ -45,7 +45,7 @@
 
                         </li>
                         <li>
-                            <a href=""><img src="/public/images/img_admin/thongke.png" alt="">
+                            <a href="?ctr=ql_thongke"><img src="/public/images/img_admin/thongke.png" alt="">
                                 <span> Thống kê </span></a>
 
                         </li>

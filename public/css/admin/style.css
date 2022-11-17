@@ -132,9 +132,12 @@ table tr td {
 
 .table__sanpham table td:nth-child(6) {
     width: 30%;
-
+  
 }
-
+.table__sanpham table td:nth-child(6) p {
+    height: 100px;
+    overflow-y: scroll ;
+}
 .table__sanpham table td:nth-child(7) {
     width: 2%;
 
@@ -183,7 +186,8 @@ table tr td {
     margin-bottom: 15.5px;
     margin-top: 37.5px;
 }
-.chiadoi input[type="button"]:hover{
+
+.chiadoi input[type="button"]:hover {
     background: #55aa7d;
 }
 
@@ -202,9 +206,11 @@ table tr td {
     margin-top: 20.5px;
     margin-left: 280px;
 }
-.add__sanpham input[type='submit']:hover{
+
+.add__sanpham input[type='submit']:hover {
     background: #55aa7d;
 }
+
 .add__sanpham {
     width: 770px;
     margin: auto;
@@ -265,14 +271,13 @@ table tr td {
 }
 
 .table__user table td:nth-child(6) {
-    width: 1%;
-
+    width: 10%;
 }
 
 .table__user table td:nth-child(7) {
     width: 4%;
-    
-    
+
+
 }
 
 /* danh mục */
@@ -288,17 +293,16 @@ table tr td {
 
 }
 
-.table__danhmuc table td:nth-child(3){
-width: 1%;
+.table__danhmuc table td:nth-child(3) {
+    width: 1%;
 }
+
 .table__user table td:nth-child(6) {
-    width: 4%;
-    height: 50px;
+    width: 1%;
+    
 
 }
-
 /* thong ke*/
-.table__thongke {
-    width: 700px;
-    margin: auto;
+.table__thongke table{
+    width: 100%;
 }

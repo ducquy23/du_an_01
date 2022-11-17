@@ -22,7 +22,8 @@
                 <td>100,000</td>
                 <td><img src="/Dự_Án_01/public/images/img_admin/giay.jfif" alt=""></td>
                 <td>Giày đá bóng nam</td>
-                <td>JOGARBOLA ra mắt mẫu giày đá bóng mới JG 190424B với đặc điểm nổi bật như trọng
+                <td><p>
+                    JOGARBOLA ra mắt mẫu giày đá bóng mới JG 190424B với đặc điểm nổi bật như trọng
                     lượng
                     giày siêu nhẹ cho khả năng tấn công tuyệt vời cùng phần đế đinh tạo ra những đột phá khi
                     di
@@ -31,7 +32,43 @@
                     trọn vẹn nhất. Jogarbola 190424B được thiết kế theo form thon gọn và thuôn dài nên
                     có
                     cảm giác rất ôm chân, nhưng không hề bị tức dù bạn có đeo tất chống trơn dày.
-                    Phần gót cảm giác rất chắc chắn và ôm rất chặt.</td>
+                    Phần gót cảm giác rất chắc chắn và ôm rất chặt.
+                    </p></td>
+                <td>1</td>
+                <td>
+                <a href="?ctr=update_product"><input type="button" value="Update"></a> 
+                    <input type="button" value="Delete">
+                </td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Giày</td>
+                <td>100,000</td>
+                <td><img src="/Dự_Án_01/public/images/img_admin/giay.jfif" alt=""></td>
+                <td>Giày đá bóng nam</td>
+                <td><p>
+                    JOGARBOLA ra mắt mẫu giày đá bóng mới JG 190424B với đặc điểm nổi bật như trọng
+                    lượng
+                    giày siêu nhẹ cho khả năng tấn công tuyệt vời cùng phần đế đinh tạo ra những đột phá khi
+                    di
+                    chuyển. Với mẫu giày này các cầu thủ có thể phô diễn toàn bộ kĩ thuật trên sân cỏ một
+                    cách
+                    trọn vẹn nhất. Jogarbola 190424B được thiết kế theo form thon gọn và thuôn dài nên
+                    có
+                    cảm giác rất ôm chân, nhưng không hề bị tức dù bạn có đeo tất chống trơn dày.
+                    Phần gót cảm giác rất chắc chắn và ôm rất chặt.
+                    JOGARBOLA ra mắt mẫu giày đá bóng mới JG 190424B với đặc điểm nổi bật như trọng
+                    lượng
+                    giày siêu nhẹ cho khả năng tấn công tuyệt vời cùng phần đế đinh tạo ra những đột phá khi
+                    di
+                    chuyển. Với mẫu giày này các cầu thủ có thể phô diễn toàn bộ kĩ thuật trên sân cỏ một
+                    cách
+                    trọn vẹn nhất. Jogarbola 190424B được thiết kế theo form thon gọn và thuôn dài nên
+                    có
+                    cảm giác rất ôm chân, nhưng không hề bị tức dù bạn có đeo tất chống trơn dày.
+                    Phần gót cảm giác rất chắc chắn và ôm rất chặt.
+                    </p>
+                </td>
                 <td>1</td>
                 <td>
                     <input type="button" value="Update">

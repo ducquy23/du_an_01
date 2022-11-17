@@ -1,3 +1,4 @@
+<?php include_once './view/admin/layout/header.php' ?>
 <div class="chiadoi">
     <h2>Danh sách sản phẩm</h2>
 
@@ -21,12 +22,12 @@
                 <td>20000</td>
                 <td>10000</td>
                 <td>5000</td>
-
-
             </tr>
         </thead>
     </table>
     </form>
+    <h3 class="chiadoi"> <a href="?ctr="><input type="button" value="Xem biểu đồ"></a></h3>
 </div>
 </article>
 </div>
+<?php include_once './view/admin/layout/footer.php' ?>

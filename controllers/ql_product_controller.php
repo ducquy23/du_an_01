@@ -5,4 +5,7 @@
     function show_add_product() {
         render('admin/product/add');
     }
+    function show_update_product() {
+        render('admin/product/update');
+    }
 ?>
